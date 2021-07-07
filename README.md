@@ -1,14 +1,24 @@
-## Getting Started
+# java-chess
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Propósito
+Projeto implementado para fortalecer meu conhecimento em Orientação a Objetos, utilizando
+a linguagem Java.
+___
+## Fonte da idéia
+A idéia e projeto são provenientes de um [curso de Java](https://www.udemy.com/course/java-curso-completo/), ministrado pelo professor
+Nélio Alves, na plataforma Udemy.
+___
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tópicos de orientação a objetos
+- Encapsulamento
+- Construtores
+- Sobrescrita de métodos
+- Associação
+- Encapsulamento, modificadores de acessos
+- Tipos Enum
+- Herança, Casting
+- Membros estáticos
+- Padrão de camadas
+- Exceções
+- Polimorfismo, classes e métodos abstratos
+- Sobrecarga
