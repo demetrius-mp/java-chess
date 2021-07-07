@@ -19,7 +19,7 @@ public class Queen extends ChessPiece {
     @Override
     public boolean[][] possibleMoves() {
         boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
-        
+
         Position p = new Position(0, 0);
 
         // acima
@@ -109,8 +109,8 @@ public class Queen extends ChessPiece {
         if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             mat[p.getRow()][p.getColumn()] = true;
         }
-        
+
         return mat;
     }
-    
+
 }

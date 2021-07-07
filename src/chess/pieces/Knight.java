@@ -25,7 +25,7 @@ public class Knight extends ChessPiece {
     @Override
     public boolean[][] possibleMoves() {
         boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
-        
+
         Position p = new Position(0, 0);
 
         p.setValues(this.position.getRow() - 1, this.position.getColumn() - 2);
